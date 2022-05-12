@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".captura2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B2FF59"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_categoria"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/color"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_familia"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/color"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_producto"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/color"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_presentacion"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/color"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_estado"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/color"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_regresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/regresar" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

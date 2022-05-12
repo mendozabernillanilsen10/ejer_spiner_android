@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ejercicio</string>
+    <string name="numero1">Ingrese Número 1</string>
+    <string name="numero2">Ingrese Número 2</string>
+    <string name="calcular">Calcular</string>
+    <string name="resul">Resultado</string>
+    <string name="enviar">Enviar</string>
+    <string name="sumar">Sumar</string>
+    <string name="restar">Restar</string>
+    <string name="mult">Multiblicar</string>
+    <string name="dividir">Dividir</string>
+    <string name="regresar">regresar</string>
+    <string name="brayam">yanima</string>
+
+
+</resources>
